@@ -1,0 +1,133 @@
+body {
+  background: #f2f2f2;
+}
+.table_general {
+  font-family: Manrope, sans-serif;
+}
+.table_test {
+  border-collapse: collapse;
+  border: 1px solid #e0e6ed;
+  width: 100%;
+  background: #fff;
+}
+
+.table_test th {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.table_test th.th_input .container {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.table_test th.th_input,
+.table_test td.td_input {
+  /* padding-right: 0.4rem; */
+  text-align: center;
+  width: 100px;
+}
+.table_test th input,
+.table_test td input {
+  height: 17px;
+  width: 17px;
+}
+.table_test td {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.table_test .tfoot_table td {
+  padding: 20px 8px;
+}
+.table_test td.name_product,
+.table_test td.id_service {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #007aff;
+}
+.table_test td,
+.table_test th {
+  border-bottom: 1px solid #e0e6ed;
+  text-align: left;
+  padding: 20px 0;
+  white-space: nowrap;
+}
+
+.filter_table {
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 17px;
+}
+
+.filter_table .filter_status {
+  background-color: #f2f9ff;
+  border-radius: 20px;
+  padding: 0 0.75rem;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-right: 0.5rem;
+  font-size: 14px;
+  font-family: Manrope;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+
+.tfoot_table .tfoot_select {
+  height: 30px;
+  width: 53px;
+  border-radius: 4px;
+  border-color: #e0e6ed;
+}
+.tfoot_table .tfoot_page_number {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.tfoot_pagination {
+  position: absolute;
+  right: 1rem;
+}
+.tfoot_table .tfoot_pagination_wrapper {
+  display: flex;
+  gap: 5px;
+}
+.tfoot_table .tfoot_pagination_wrapper .tfoot_pagination_button {
+  font-family: Nunito;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: left;
+  border-radius: 50px;
+  background: #e0e6ed;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tfoot_table
+  .tfoot_pagination_wrapper
+  .tfoot_pagination_button.tfoot_pagination_button_active {
+  font-size: 13px;
+  color: #007aff;
+  font-weight: 700;
+  border: 1px solid #007aff;
+  background: #fff;
+}

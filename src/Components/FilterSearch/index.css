@@ -1,0 +1,95 @@
+.filter_content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 17px;
+}
+.filter_content .filters {
+  font-family: Manrope;
+  display: flex;
+  gap: 2rem;
+}
+.filter_content .filters .filter_button {
+  display: flex;
+  gap: 1px;
+}
+.filter_content .filters .filter_text,
+.filter_content .filters .change_filter_text {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.filter_content .filters .change_filter_text {
+  height: 35px;
+  padding: 0 8px;
+  background: #fff;
+  color: #007aff;
+  border-radius: 6px;
+  gap: 8px;
+}
+.filter_content .filters .filter_button .create_button,
+.filter_content .filters .filter_button .three_dot_buttom {
+  /* width: 150.18406677246094px; */
+  height: 35px;
+  left: 105px;
+  border-radius: 4px 0 0 4px;
+  background: #007aff;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0 10px;
+}
+
+.filter_content .filters .filter_button .three_dot_buttom {
+  border-radius: 0 4px 4px 0;
+}
+.filter_content .filters .filter_button .create_button button {
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+}
+.filter_content .filters .filter_text.filter_text_active {
+  position: relative;
+}
+.filter_content .filters .filter_text.filter_text_active:before {
+  position: absolute;
+  content: "-";
+  width: 100%;
+  text-align: center;
+  border-bottom: 2.5px solid #007aff;
+}
+.filter_content .search_input {
+  border: 1px solid #e9edf5;
+  width: 40%;
+  height: 35px;
+  border-radius: 5px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+.filter_content .search_input input {
+  border: none;
+  width: 100%;
+  padding: 0.5rem;
+  background: transparent;
+  outline: none;
+}
+
+.filter_content .search_input input::placeholder {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #939393;
+}

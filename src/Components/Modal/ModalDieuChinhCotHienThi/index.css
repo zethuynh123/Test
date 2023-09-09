@@ -1,0 +1,71 @@
+.modal-header .modal_title {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.custome_input {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  padding-left: 0.75rem;
+  background: #f2f9ff;
+  height: 29.5px;
+  border-radius: 3px;
+}
+
+input[class="cb_custom"] + label {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #bcbcbc;
+  border-radius: 2px;
+  cursor: pointer;
+}
+input[class="cb_custom"]:checked + label:after {
+  position: relative;
+  top: -10px;
+  left: 1px;
+  content: "\2714";
+  color: #4361ee !important;
+  font-size: 8px;
+}
+input[class="cb_custom"]:checked + label {
+  border: 2px solid #4361ee !important;
+  position: relative;
+}
+input[class="cb_custom"] {
+  display: none;
+}
+
+.label_custome_input {
+  margin-left: 5px;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0f1824;
+}
+.add__table_header,
+.display__table_header {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000;
+}
+
+.display__table_content {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: left;
+}

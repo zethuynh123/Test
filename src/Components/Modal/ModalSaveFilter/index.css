@@ -1,0 +1,18 @@
+.filter_input {
+}
+.filter_input input {
+  border: 2px solid #e0e6ed;
+  border-radius: 6px;
+  height: 39px;
+  width: 100%;
+  outline: none;
+  padding: 0 1rem;
+}
+.filter_input input::placeholder {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
