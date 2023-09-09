@@ -74,7 +74,7 @@ const ModalFilter = ({ data, onHide, show }: ModalFilterProps) => {
           <div className="d-flex justify-content-center gap-2 w-100">
             <div
               className="py-2 px-4 border border-danger border-2 rounded-1"
-              onClick={() => setShowModalSaved(false)}
+              onClick={() => onHide?.()}
             >
               Hủy
             </div>
